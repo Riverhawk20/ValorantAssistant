@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1015784054185",
+    "firebase_url": "https://valorant-assistant.firebaseio.com",
+    "project_id": "valorant-assistant",
+    "storage_bucket": "valorant-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015784054185:android:03ae35a5964da3964f38b8",
+        "android_client_info": {
+          "package_name": "com.app.valorantassistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015784054185-tc1k8u7f19p7kfbinlbt2rekbljor962.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVkkhzNABzFlUgyeoW74d7dILGobUdhlI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015784054185-tc1k8u7f19p7kfbinlbt2rekbljor962.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

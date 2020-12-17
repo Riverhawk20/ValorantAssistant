@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/valorantDark"
+    tools:context=".Weapons_Info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/backButtonWeaponInfo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@color/valorantRed"
+                android:src="@drawable/back"
+                android:tint="@color/valorantWhite" />
+
+            <TextView
+                android:id="@+id/weaponName"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:autoSizeMaxTextSize="45sp"
+                android:autoSizeMinTextSize="17dp"
+                android:autoSizeStepGranularity="2sp"
+                android:autoSizeTextType="uniform"
+                android:fontFamily="@font/valorant"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="TACTICAL KNIFE"
+                android:textAlignment="gravity"
+                android:textColor="@color/valorantRed"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/weaponPicture"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/border"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/TypeTextWeapon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Type:"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/CredsWeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Creds:"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/MagazineWeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Magazine:"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/WallPenetrationWeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Wall Penetration:"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/primarySubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Primary Fire"
+            android:textColor="@color/orangeNice"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/PrimaryModeWeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Fully Automatic"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/PrimaryFireRateWeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="11 rounds/sec"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/alternateFire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Alternate Fire"
+            android:textColor="@color/orangeNice"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SecondaryModeWeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Fully Automatic"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/SecondaryFireRateWeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="11 rounds/sec"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Damage"
+            android:textColor="@color/orangeNice"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Damage1RangeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Range"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/Damage1WeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Head 3 | Body 34 | Head 167"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/Damage2RangeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Range"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/Damage2WeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Head 3 | Body 34 | Head 167"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/Damage3RangeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Range"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/Damage3WeaponText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/valorant"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="Head 3 | Body 34 | Head 167"
+            android:textColor="@color/valorantWhite"
+            android:textSize="17dp" />
+
+        <LinearLayout
+            android:id="@+id/skinLayoutContainer"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/valorant"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:text="Skins"
+                android:textColor="@color/orangeNice"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/skinFlexBox"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/valorant"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:gravity="center"
+                    android:text="No Skins are available for this weapon yet"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

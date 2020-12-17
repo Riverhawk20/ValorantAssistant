@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantDark"
+    tools:context=".Weapons_Title">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:id="@+id/backButtonWeapon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/valorantRed"
+            android:src="@drawable/back"
+            android:tint="@color/valorantWhite" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            app:alignItems="center"
+            app:flexWrap="wrap"
+            app:justifyContent="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/classic"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/classicpng" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Classic"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/shorty"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/shorty" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Shorty"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/frenzy"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/frenzy" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="frenzy"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ghost"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/ghost" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Ghost"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/sheriff"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/sheriff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Sheriff"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/stinger"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/stinger" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Stinger"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/spectre"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/spectre" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Spectre"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bulldog"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/bulldog" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Bulldog"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/guardian"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/spectre" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Guardian"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/phantom"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/phantom" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Phantom"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="21dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/vandal"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/vandla" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Vandal"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bucky"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/bucky" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Bucky"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/judge"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/judge" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Judge"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ares"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/ares" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Ares"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/odin"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/odin" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Odin"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/marshal"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/marshal" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Marshal"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/operator"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/operator" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Operator"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/knife"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/knife" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Tactical Knife"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+
+</ScrollView>

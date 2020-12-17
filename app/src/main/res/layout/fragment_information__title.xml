@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantDark"
+    tools:context=".Information_Title">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/backButtonInformation"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/valorantRed"
+            android:src="@drawable/back"
+            android:tint="@color/valorantWhite" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/borderdark"
+                android:src="@drawable/valorantrank" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="40dp"
+                android:fontFamily="@font/valorant"
+                android:gravity="center"
+                android:text="Ranks"
+                android:textColor="@color/valorantWhite"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/infoToggle1"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="0dp"
+                android:background="@color/valorantWhite"
+                android:src="@drawable/expandarrow" />
+        </RelativeLayout>
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+            android:id="@+id/info1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/valorantDark"
+            app:el_duration="200"
+            app:el_expanded="false"
+            app:el_parallax="1">
+
+            <LinearLayout
+                android:id="@+id/info1.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/rankschart1" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/rankschart2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:lineSpacingExtra="8dp"
+                    android:padding="5dp"
+                    android:text="Ranks can be earned only by playing ranked mode. The unranked mode has no effect on your competitive rank. You can queue with up to 4 other friends, but everyone must be within 2 ranks (6 tiers). \n\nClosed beta ranks do NOT carry over to launch. Abandoning matches will have negative impacts such as reduced progression and game restrictions.
+\n\n-Complete 20 Unranked matches to unlock competitive mode
+\n-Rank isn't displayed if a competitive match is not played within 14 days (Note that your rank will not 'decay' during this time)
+\n-There are 8 ranks with 3 tiers each, besides the final rank
+\n-Tier 3 > Tier 2 > Tier 1
+\n-Rankings (8 is the best):
+\n1. Iron
+\n2. Bronze
+\n3. Silver
+\n4. Gold
+\n5. Platinum
+\n6. Diamond
+\n7. Immortal
+\n8. Valorant
+\n\nRanking factors
+\n-Winning or Losing the game (most important)
+\n-The gap of the final score (close games have a smaller impact on ranking)
+\n-Personal Performance (Kills, Assists, Ability Usage, etc.)"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+
+    </LinearLayout>
+</ScrollView>

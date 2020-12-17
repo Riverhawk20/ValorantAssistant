@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantDark"
+
+    tools:context=".Agent_Title">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/valorantRed"
+            android:src="@drawable/back"
+            android:tint="@color/valorantWhite" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:alignItems="center"
+            app:flexWrap="wrap"
+            app:justifyContent="center">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Breach"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/breach" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="Breach"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Brimstone"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/brimstone" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="18dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="BRIMSTONE"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Cypher"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/cypherpicture" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="CYPHER"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Jett"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/jett" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="JETT"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Omen"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/omen" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="OMEN"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Phoenix"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/phoenix" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="Phoenix"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Raze"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/raze" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="RAZE"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Sage"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/sage" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="SAGE"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/Sova"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:src="@drawable/sova" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/valorant"
+                    android:textSize="25dp"
+                    android:textColor="@color/valorantWhite"
+                    android:text="SOVA"
+                    android:textStyle="bold"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/Viper"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/border"
+                android:padding="5dp"
+                android:src="@drawable/viper" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/valorant"
+                android:textSize="25dp"
+                android:textColor="@color/valorantWhite"
+                android:text="VIPER"
+                android:textStyle="bold"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                />
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+
+
+</ScrollView>

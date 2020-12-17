@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/valorantDark"
+    tools:context=".Map_Title">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/backButtonMapTitle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/valorantRed"
+            android:src="@drawable/back"
+            android:tint="@color/valorantWhite" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            app:alignItems="center"
+            app:flexWrap="wrap"
+            app:justifyContent="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bind"
+                    android:layout_width="328dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/border"
+                    android:paddingBottom="27dp"
+                    android:src="@drawable/bind" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Bind"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/haven"
+                    android:layout_width="328dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/border"
+                    android:paddingBottom="27dp"
+                    android:src="@drawable/haven" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Haven"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/split"
+                    android:layout_width="328dp"
+                    android:layout_height="140dp"
+                    android:background="@drawable/border"
+                    android:paddingBottom="27dp"
+                    android:src="@drawable/split" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:fontFamily="@font/valorant"
+                    android:text="Split"
+                    android:textColor="@color/valorantWhite"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </com.google.android.flexbox.FlexboxLayout>
+    </LinearLayout>
+</ScrollView>
